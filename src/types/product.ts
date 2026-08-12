@@ -1,88 +1,22 @@
-import type { Product } from '../types/product';
+export type Product = {
+  id: string;
+  title: string;
+  category: string;
+  condition: string;
+  price: number;
+  seller: string;
+  location: string;
+  image: string;
+  description: string;
+  dateAdded: string;
+  estimatedValue: number;
+};
 
-export const products: Product[] = [
-  {
-    id: '1',
-    title: '1999 Pokémon Charizard Holographic',
-    category: 'Trading Cards',
-    condition: 'Excellent',
-    price: 450,
-    seller: 'CardCollector',
-    location: 'Bengaluru',
-    image:
-      'https://source.unsplash.com/600x400/?pokemon,trading-card',
-    description: 'A classic holographic Charizard card.',
-    dateAdded: '2026-08-10',
-    estimatedValue: 500,
-  },
-  {
-    id: '2',
-    title: 'Vintage Superman Comic',
-    category: 'Comics',
-    condition: 'Good',
-    price: 180,
-    seller: 'RetroVault',
-    location: 'Mumbai',
-    image:
-      'https://source.unsplash.com/600x400/?comic,comic-book,vintage-comic',
-    description: 'Vintage Superman comic.',
-    dateAdded: '2026-08-09',
-    estimatedValue: 220,
-  },
-  {
-    id: '3',
-    title: 'Classic Die-Cast Racing Car',
-    category: 'Figures',
-    condition: 'Mint',
-    price: 120,
-    seller: 'ToyHunter',
-    location: 'Delhi',
-    image:
-      'https://source.unsplash.com/600x400/?diecast,car,collectible-car',
-    description: 'Limited edition die-cast racing car.',
-    dateAdded: '2026-08-08',
-    estimatedValue: 150,
-  },
-  {
-    id: '4',
-    title: '1965 Indian One Rupee Coin',
-    category: 'Coins',
-    condition: 'Excellent',
-    price: 75,
-    seller: 'CoinVault',
-    location: 'Chennai',
-    image:
-      'https://source.unsplash.com/600x400/?coin,old-coin,vintage-coin',
-    description: 'A vintage Indian one rupee coin.',
-    dateAdded: '2026-08-07',
-    estimatedValue: 90,
-  },
-  {
-    id: '5',
-    title: 'Vintage Mechanical Watch',
-    category: 'Vintage',
-    condition: 'Fair',
-    price: 250,
-    seller: 'TimeCollector',
-    location: 'Hyderabad',
-    image:
-      'https://source.unsplash.com/600x400/?vintage-watch,mechanical-watch',
-    description: 'Vintage mechanical watch.',
-    dateAdded: '2026-08-06',
-    estimatedValue: 300,
-  },
-  {
-    id: '6',
-    title: 'Marvel Spider-Man Figure',
-    category: 'Figures',
-    condition: 'Excellent',
-    price: 200,
-    seller: 'HeroCollector',
-    location: 'Pune',
-    image:
-      'https://source.unsplash.com/600x400/?spiderman,action-figure,marvel-toy',
-    description: 'Detailed Spider-Man collectible figure.',
-    dateAdded: '2026-08-05',
-    estimatedValue: 240,
-  },
-];
+export type CollectionType =
+  | 'Owned'
+  | 'Wishlist'
+  | 'Selling';
+
+export type CollectionItem = Product & {
+  collection: CollectionType;
+};
