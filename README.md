@@ -6,8 +6,8 @@ A responsive **React + TypeScript** web application built for the **React Web De
 
 ## Live Demo
 
-* **Live App:** Add your Vercel link here
-* **Demo Video:** Add your video link here
+* **Live App:** collectors-hub-two.vercel.app
+* **Demo Video:** https://drive.google.com/file/d/1bntkh_0ZitDVSgeyX5JfW8RhYJaiqFq9/view?usp=drive_link
 
 ---
 
