@@ -4,8 +4,8 @@ import {
   useEffect,
   useMemo,
   useState,
-  ReactNode,
 } from 'react';
+import type { ReactNode } from 'react';
 import type { CollectionType, Product } from '../types/product';
 
 interface CollectionItem extends Product {
