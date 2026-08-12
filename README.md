@@ -1,12 +1,12 @@
 # Collector's Hub
 
-A responsive **React + TypeScript** web application built for the **React Web Developer Internship Assignment**. The platform allows collectors to explore marketplace listings, browse community posts, and manage their personal collection through a clean and intuitive interface.
+A responsive **React + TypeScript** web application built for the **React Web Developer Internship Assignment**. The platform allows collectors to explore marketplace listings, browse community posts, and manage their personal collection through a clean and intuitive user experience.
 
 ---
 
 ## Live Demo
 
-* **Live App:** collectors-hub-two.vercel.app
+* **Live App:** https://collectors-hub-two.vercel.app
 * **Demo Video:** https://drive.google.com/file/d/1bntkh_0ZitDVSgeyX5JfW8RhYJaiqFq9/view?usp=drive_link
 
 ---
@@ -25,7 +25,7 @@ The project focuses on reusable React components, responsive UI design, maintain
 
 # Features
 
-## 1. Marketplace
+## Marketplace
 
 Users can browse collectible items available for sale.
 
@@ -53,7 +53,7 @@ Users can browse collectible items available for sale.
 
 ---
 
-## 2. Community Feed
+## Community Feed
 
 Users can discover collectibles shared by the community.
 
@@ -76,7 +76,7 @@ Users can discover collectibles shared by the community.
 
 ---
 
-## 3. My Collection
+## My Collection
 
 Three default collections are provided:
 
@@ -225,17 +225,6 @@ The application is optimized for:
 * Desktop browsers
 
 Layouts adapt without horizontal scrolling or broken components.
-
----
-
-# Accessibility & UX Notes
-
-* Semantic HTML structure
-* Keyboard-accessible buttons and links
-* Clear visual hierarchy
-* Consistent spacing and typography
-* High-contrast dark mode option
-* Helpful empty and error states
 
 ---
 
